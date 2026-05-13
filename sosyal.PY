@@ -26,9 +26,20 @@ class AntikDunyaArsivi:
                 "kat": "Anadolu", "renk": "#c3073f",
                 "detay": "EKONOMİ: Parayı icat eden medeniyet. Kral Yolu ticareti.\nORDU: Paralı askerlik sistemi (Yıkılışlarının temel sebebi).\nBAŞKENT: Sard şehri ticaretin kalbiydi."
             },
-            "Urartular": {
+                       "Urartular": {
                 "kat": "Anadolu", "renk": "#6f2232",
-                "detay": "MÜHENDİSLİK: Şamran Kanalı ve devasa su barajları.\nMADENCİLİK: Demir işleme sanatı (Madenin Ustaları).\nİNANIŞ: Oda mezarlar ve ölümden sonra yaşam."
+                "detay": (
+                    "MÜHENDİSLİK: Şamran Kanalı ve devasa su barajları. Yapılan su kanalları günümüzde bile hala işlevselliğini korumaktadır.\n\n"
+                    "MADENCİLİK: Demir ve bronz işleme sanatı. 'Madenin Ustaları' olarak bilinirler; ürettikleri metal eşyaları Antik Yunanistan'a kadar ihraç etmişlerdir.\n\n"
+                    "MİMARİ VE COĞRAFYA: Başkentleri Tuşpa (Van) merkezli kurulmuştur. Sarp kayalıklar üzerine inşa ettikleri kaleler ve devasa taş bloklardan oluşan surlar savunma dehalarını gösterir.\n\n"
+                    "İNANIŞ VE YAŞAM: Oda mezarlar ve ölümden sonra yaşam inancı (Ahiret inancı). Ölülerini değerli eşyalarıyla birlikte gömerlerdi.\n\n"
+                    "TARIM: Doğu Anadolu'nun zorlu coğrafyasında hayvancılık ve dağ yamaçlarında teraslama yöntemiyle bağcılık yapmışlardır.\n\n"
+                    "YAZI VE DİL: Hem Asurlardan aldıkları çivi yazısını hem de kendi hiyeroglif (resim) yazılarını kullanmışlardır.\n\n"
+                    "DİN VE SAVAŞ: En büyük tanrıları savaş tanrısı Haldi'dir. Krallar, seferleri ve zaferleri Haldi adına kayda geçirirdi.\n\n"
+                    "YIKILIŞ: İskit ve Med akınları sonucunda zayıflayarak M.Ö. 6. yüzyılda tamamen tarih sahnesinden çekilmişlerdir."
+                )
+            },
+
             },
             "İyonlar": {
                 "kat": "Anadolu", "renk": "#2e1114",
