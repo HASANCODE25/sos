@@ -26,7 +26,7 @@ class AntikDunyaArsivi:
                 "kat": "Anadolu", "renk": "#c3073f",
                 "detay": "EKONOMİ: Parayı icat eden medeniyet. Kral Yolu ticareti.\nORDU: Paralı askerlik sistemi (Yıkılışlarının temel sebebi).\nBAŞKENT: Sard şehri ticaretin kalbiydi."
             },
-                       "Urartular": {
+            "Urartular": {
                 "kat": "Anadolu", "renk": "#6f2232",
                 "detay": (
                     "MÜHENDİSLİK: Şamran Kanalı ve devasa su barajları. Yapılan su kanalları günümüzde bile hala işlevselliğini korumaktadır.\n\n"
@@ -38,8 +38,6 @@ class AntikDunyaArsivi:
                     "DİN VE SAVAŞ: En büyük tanrıları savaş tanrısı Haldi'dir. Krallar, seferleri ve zaferleri Haldi adına kayda geçirirdi.\n\n"
                     "YIKILIŞ: İskit ve Med akınları sonucunda zayıflayarak M.Ö. 6. yüzyılda tamamen tarih sahnesinden çekilmişlerdir."
                 )
-            },
-
             },
             "İyonlar": {
                 "kat": "Anadolu", "renk": "#2e1114",
@@ -113,7 +111,7 @@ class AntikDunyaArsivi:
         txt.configure(state="disabled")
         txt.pack(fill="both", expand=True)
         
-        tk.Button(pencere, text="KAPAT", command=pencere.destroy, bg="#c3073f", fg="white").pack(pady=20)
+        tk.Button(pencere, text="KAPAT", command=pencere.destroy, bg="#c3073f", fg="white", font=("Arial", 10, "bold"), padx=10, pady=5).pack(pady=20)
 
     def arayuz_olustur(self):
         canvas = tk.Canvas(self.root, bg="#1a1a1d", highlightthickness=0)
@@ -121,8 +119,11 @@ class AntikDunyaArsivi:
         scroll_frame = tk.Frame(canvas, bg="#1a1a1d")
 
         scroll_frame.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
-        canvas.create_window((0, 0), window=scroll_frame, anchor="nw", width=780)
+        canvas.create_window((0, 0), window=scroll_frame, anchor="nw", width=760)
         canvas.configure(yscrollcommand=scrollbar.set)
+
+        scrollbar.pack(side="right", fill="y")
+        canvas.pack(side="left", fill="both", expand=True)
 
         tk.Label(scroll_frame, text="ANTİK DÜNYA ANSİKLOPEDİSİ", font=("Impact", 32), bg="#1a1a1d", fg="#c3073f").pack(pady=40)
 
@@ -138,17 +139,25 @@ class AntikDunyaArsivi:
             frame.pack(fill="x", padx=60, pady=15)
 
             filtreli = [n for n, v in self.medeniyetler.items() if v['kat'] == anahtar]
-            for m in filtreli:
-                btn = tk.Button(frame, text=m, bg=self.medeniyetler[m]['renk'], fg="white", 
-                                font=("Arial", 11, "bold"), height=2, cursor="hand2", bd=0)
-                btn.config(command=lambda isim=m: self.detay_penceresi(isim))
-                btn.pack(fill="x", pady=4)
-
-        canvas.pack(side="left", fill="both", expand=True)
-        scrollbar.pack(side="right", fill="y")
+            
+            for medeniyet_ismi in filtreli:
+                renk = self.medeniyetler[medeniyet_ismi]['renk']
+                btn = tk.Button(
+                    frame, 
+                    text=medeniyet_ismi, 
+                    command=lambda m=medeniyet_ismi: self.detay_penceresi(m),
+                    bg=renk, 
+                    fg="white", 
+                    font=("Segoe UI", 11, "bold"),
+                    activebackground="#ffffff",
+                    activeforeground=renk,
+                    cursor="hand2",
+                    bd=0,
+                    pady=8
+                )
+                btn.pack(fill="x", pady=5)
 
 if __name__ == "__main__":
     root = tk.Tk()
     app = AntikDunyaArsivi(root)
     root.mainloop()
-
