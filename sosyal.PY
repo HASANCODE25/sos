@@ -16,15 +16,46 @@ class AntikDunyaArsivi:
             # --- ANADOLU ---
             "Hititler": {
                 "kat": "Anadolu", "renk": "#950740",
-                "detay": "SİYASİ YAPI: Bin Tanrılı İl. Pankuş Meclisi ve Tavananna (Kraliçe) yönetimi.\nHUKUK: Kadeş Antlaşması ve Anal yıllıklar (Tarafsız tarih yazıcılığı).\nASKERİ: Savaş arabaları ve demir silah teknolojisi."
+                "detay": (
+                    "SİYASİ YAPI: Bin Tanrılı İl. Pankuş Meclisi ve Tavananna (Kraliçe) yönetimi.\n\n"
+                    "HUKUK: Kadeş Antlaşması ve Anal yıllıklar (Tarafsız tarih yazıcılığı).\n\n"
+                    "ASKERİ: Savaş arabaları ve demir silah teknolojisi.\n\n"
+                    "MİMARİ: UNESCO Dünya Mirası listesindeki başkent Hattuşaş and Yazılıkaya Açık Hava Tapınağı.\n\n"
+                    "KÜLTÜR VE SANAT: Güneş Kursu simgesi, geyik ve boğa figürlü törensel içki kapları (Aslanlı Kapı).\n\n"
+                    "DİNSEL TOLERANS: Fethettikleri her bölgenin tanrılarını kendi panteonlarına ekleyerek isyanları önlemişlerdir.\n\n"
+                    "TOPLUMSAL YAPI: Kadınların mirastan pay alabildiği ve boşanma hakkına sahip olduğu gelişmiş medeni kanunlar.\n\n"
+                    "COĞRAFİ ETKİ: Kızılırmak yayı (Kapadokya bölgesi) merkezli kurulup Suriye sınırlarına kadar genişleyen imparatorluk."
+                )
             },
             "Frigler": {
                 "kat": "Anadolu", "renk": "#4e4e50",
-                "detay": "EKONOMİ: Tarım koruma yasaları (Saban kırmanın cezası ölüm). Tapates halıları.\nEFSANE: Kral Midas ve Gordion Düğümü.\nMİMARİ: Kaya mezarları ve Tümülüsler."
+                "detay": (
+                    "EKONOMİ: Tarım koruma yasaları (Saban kırmanın cezası ölüm). Tapates halıları.\n\n"
+                    "EFSANE: Kral Midas, Eşek Kulaklar miti ve Gordion Düğümü.\n\n"
+                    "MİMARİ: Kaya mezarları, anıtsal dini cepheler (Midas Anıtı) ve Tümülüsler (Yığma mezarlar).\n\n"
+                    "EL SANATLARI: 'Fibula' adı verilen tarihin ilk çengelli iğneleri ve mobilyacılıkta kullanılan geçme tekniği.\n\n"
+                    "MÜZİK VE KÜLTÜR: Flüt (Flauto) ve simbal gibi müzik aletlerinin icadı; Batı müziğini etkileyen Frig modu.\n\n"
+                    "DİNSEL YAPI: Bereket ve doğa tanrıçası Kibele (Magna Mater) merkezli güçlü ana tanrıça kültü.\n\n"
+                    "COĞRAFİ ETKİ: Sakarya Nehri havzası merkezli (Gordion/Ankara) kurulup Batı ve Orta Anadolu'ya yayılan egemenlik.\n\n"
+                    "YAZI VE DİL: Hint-Avrupa dil ailesine mensup, henüz tamamen çözülememiş kendilerine özgü alfabetik yazı sistemi.\n\n"
+                    "KAYNAK VE ARKEOLOJİ: Ankara yakınlarındaki Büyük Tümülüs (Midas Mezarı) içinden çıkarılan dünyanın en eski ahşap mobilya kalıntıları.\n\n"
+                    "YIKILIŞ SÜRECİ: Kafkaslar üzerinden gelen göçebe Kimmer akınları sonucu başkent Gordion'un yağmalanmasıyla siyasi güçlerini kaybetmeleri."
+                )
             },
             "Lidyalılar": {
                 "kat": "Anadolu", "renk": "#c3073f",
-                "detay": "EKONOMİ: Parayı icat eden medeniyet. Kral Yolu ticareti.\nORDU: Paralı askerlik sistemi (Yıkılışlarının temel sebebi).\nBAŞKENT: Sard şehri ticaretin kalbiydi."
+                "detay": (
+                    "EKONOMİ: Parayı icat eden medeniyet. Kral Yolu ticareti.\n\n"
+                    "ORDU: Paralı askerlik sistemi (Yıkılışlarının temel sebebi).\n\n"
+                    "BAŞKENT: Sard şehri ticaretin kalbiydi.\n\n"
+                    "METALURJİ VE MADENCİLİK: Salihli yakınlarındaki Sart Çayı (Paktolos) yatağından çıkarılan elektrum (altın-gümüş alaşımı) madenini dünyada ilk kez saf altına dönüştürmeyi başarmışlardır.\n\n"
+                    "KÜLTÜR VE KAST SİSTEMİ: Mezopotamya kültüründen etkilenmişlerdir. Toplum; soylular, tüccarlar, zanaatkarlar ve köleler olarak sınıflara ayrılmıştır.\n\n"
+                    "MİMARİ VE ÖLÜ KÜLTÜ: Friglerden etkilenerek Tümülüs (yığma mezar) mimarisini geliştirmişlerdir. Başkent Sard yakınlarındaki Bintepeler bölgesi, Anadolu'nun en büyük tümülüs alanıdır.\n\n"
+                    "DİNSEL SENKRETİZM: Anadolu kökenli Kibele kültüne inanmakla birlikte, zamanla Antik Yunan tanrıları Artemis, Apollo ve Zeus'u da benimsemişlerdir.\n\n"
+                    "EFSANELER: Kral Karun (Kroisos) dönemindeki muazzam zenginlikleri, günümüzde 'Karun kadar zengin' deyimiyle dilimize yerleşmiştir.\n\n"
+                    "YAZI VE DİL: Hint-Avrupa dil ailesine ait, kendilerine özgü Lidya alfabesini kullanmışlardır; bu yazı sistemi henüz tamamen çözülememiştir.\n\n"
+                    "YIKILIŞ SÜRECİ: Pers İmparatoru Büyük Kiros'un M.Ö. 546 yılında Sard şehrini kuşatıp ele geçirmesiyle bağımsızlıklarını kaybetmişlerdir."
+                )
             },
             "Urartular": {
                 "kat": "Anadolu", "renk": "#6f2232",
@@ -53,18 +84,54 @@ class AntikDunyaArsivi:
                 )
             },
             # --- MEZOPOTAMYA ---
-            "Sümerler": {
+                       "Sümerler": {
                 "kat": "Mezopotamya", "renk": "#4e4e50",
-                "detay": "YAZI: Çivi yazısını bularak tarihi başlattılar.\nBİLİM: Tekerlek, Ay takvimi ve 60'lık sayı sistemi.\nYAPI: Zigguratlar (Tapınak, okul ve gözlemevi)."
+                "detay": (
+                    "YAZI: Çivi yazısını bularak tarihi çağları (M.Ö. 3200) başlatan ilk medeniyettir.\n\n"
+                    "BİLİM: Tekerleğin icadı, Ay yılı esaslı ilk takvim ve 60'lık (seksajisimal) sayı sistemi.\n\n"
+                    "YAPI: Ziggurat adı verilen çok işlevli (tapınak, tahıl ambarı, okul ve rasathane) devasa kule tapınaklar.\n\n"
+                    "HUKUK SİSTEMİ: Tarihin ilk yazılı kanunları olan 'Urkagina Kanunları'. Bu yasalarla ilk kez özel mülkiyet ve vatandaş hakları korunmuştur.\n\n"
+                    "SİYASİ YAPI: Merkezi bir krallık yerine Ur, Uruk, Lagaş, Kiş gibi 'Site' adı verilen bağımsız şehir devletleri şeklinde yönetilmişlerdir.\n\n"
+                    "YÖNETİM VE TEOKRASİ: Şehirlerin başında 'Patesi' veya 'Ensi' adı verilen rahip-krallar bulunurdu; en yüksek dini ve siyasi otorite onlardaydı.\n\n"
+                    "EDEBİYAT VE MİTOLOJİ: Dünya edebiyat tarihinin ilk yazılı eserleri olan Gılgamış Destanı, Tufan Hikayesi ve Yaratılış Destanı'nın ilk nüshaları.\n\n"
+                    "MATEMATİK VE GEOMETRİ: Dört işlemi bulmuşlar, daireyi 360 dereceye bölmüşler, yüzey ve hacim ölçüm hesaplamalarını başlatmışlardır.\n\n"
+                    "TOPLUMSAL YAŞAM VE SINIFLAR: Halk; hürler, yarı hürler ve köleler olarak ayrılmış, tarım işçiliği ve zanaatkarlık ekonominin temelini oluşturmuştur.\n\n"
+                    "YIKILIŞ SÜRECİ: Şehir devletlerinin kendi aralarındaki bitmek bilmeyen savaşlar nedeniyle zayıflayarak M.Ö. 2350'de Akadlar tarafından istila edilip yıkılmaları."
+                )
             },
-            "Babiller": {
+
+                        "Babiller": {
                 "kat": "Mezopotamya", "renk": "#950740",
-                "detay": "HUKUK: Hammurabi Kanunları (Kısasa kısas).\nMİMARİ: Babil'in Asma Bahçeleri ve Babil Kulesi.\nASTRONOMİ: Burçların ve yıldız haritalarının temeli."
+                "detay": (
+                    "HUKUK: Hammurabi Kanunları (Kısasa kısas esasına dayalı ilk mutlak krallık yasaları).\n\n"
+                    "MİMARİ: Babil'in Asma Bahçeleri (Dünyanın 7 Harikası'ndan biri) ve tanrı Marduk adına yapılan Babil Kulesi.\n\n"
+                    "ASTRONOMİ: Burçların, yıldız haritalarının ve ay-güneş tutulması döngülerinin (Saros serisi) temeli.\n\n"
+                    "SİYASİ YAPI: Gücünü ordudan alan dünyadaki ilk 'Mutlak Monarşi' ve merkezi devlet yönetim sistemi.\n\n"
+                    "MATEMATİK VE GEOMETRİ: 60'lık sayı sistemini (Gelişmiş seksajisimal sistem) kullanarak bir saati 60 dakikaya, daireyi 360 dereceye bölmüşlerdir.\n\n"
+                    "ŞEHİRCİLİK VE SANAT: Mavi sırlı tuğlalarla inşa edilen, üzerinde aslan ve boğa kabartmaları bulunan ikonik İştar Kapısı.\n\n"
+                    "DİNSEL YAŞAM: Panteonun merkezinde yer alan baş tanrı Marduk kültü ve onun adına düzenlenen yeni yıl (Akitu) festivalleri.\n\n"
+                    "EDEBİYAT: Sümerlerden devralıp genişlettikleri Gılgamış Destanı ve yaratılış miti olan Enuma Eliş tabletleri.\n\n"
+                    "COĞRAFİ ETKİ: Fırat Nehri kıyısında (Bugünkü Irak/Bağdat yakınları) kurulup tüm Mezopotamya ve Suriye'ye yayılan imparatorluk sınırları.\n\n"
+                    "YIKILIŞ SÜRECİ: M.Ö. 539 yılında Pers İmparatoru Büyük Kiros'un (Cyrus) Babil şehrini fethetmesiyle devletin tamamen ortadan kalkması."
+                )
             },
-            "Asurlar": {
+
+                      "Asurlar": {
                 "kat": "Mezopotamya", "renk": "#c3073f",
-                "detay": "TİCARET: Anadolu'ya yazıyı getiren kavim (Kültepe/Kaniş).\nKÜLTÜR: Dünyanın ilk kütüphanesi (Ninova).\nORDU: İlk süvari birlikleri ve profesyonel ordu."
+                "detay": (
+                    "TİCARET: Anadolu'ya yazıyı getiren kavim (Kültepe/Kaniş). Karum adı verilen ticaret merkezleri.\n\n"
+                    "KÜLTÜR: Dünyanın ilk kütüphanesi (Ninova Kütüphanesi - Binlerce çivi yazılı tablet).\n\n"
+                    "ORDU: İlk süvari birlikleri, profesyonel daimi ordu ve demir silahlı kuşatma kuleleri.\n\n"
+                    "SİYASİ YAPI VE EMPERYALİZM: Tarihin ilk büyük 'Merkezi İmparatorluk' modelini kurmuşlar, eyalet sistemini ve gelişmiş istihbarat/posta ağını geliştirmişlerdir.\n\n"
+                    "HUKUK SİSTEMİ: Mezopotamya tarihinin en sert ve acımasız ceza kanunları. Yağma, sürgün ve işkence askeri bir devlet politikası olarak uygulanmıştır.\n\n"
+                    "MİMARİ VE KABARTMA SANATI: Başkent Ninova ve Nemrud'daki devasa saraylar; saray duvarlarını süsleyen ve kralların aslan avlarını betimleyen yüksek nitelikli taş kabartmalar.\n\n"
+                    "MİTOLOJİK KORUYUCULAR: Saray kapılarını koruması amacıyla inşa edilen 'Lamassu' adı verilen insan başlı, kanatlı boğa/aslan heykelleri.\n\n"
+                    "EKONOMİK COĞRAFYA: Dicle Nehri kıyısında (Kuzey Irak / Musul) kurulup basiretli tüccarları sayesinde Mezopotamya ile Anadolu arasında köprü oluşturmuşlardır.\n\n"
+                    "DİNSEL MERKEZ: Devletin adını da aldığı baş tanrı Aşur kültü. Krallar kendilerini tanrı Aşur'un dünyadaki temsilcisi ve rahipleri olarak görürdü.\n\n"
+                    "YIKILIŞ SÜRECİ: Savaşçı politikalarının yarattığı nefrete karşı birleşen Babiller ve Medlerin ortak ittifakı sonucu M.Ö. 612 yılında Ninova'nın yakılmasıyla tarih sahnesinden çekilmişlerdir."
+                )
             },
+
             # --- DÜNYA ---
             "Mısır": {
                 "kat": "Dünya", "renk": "#6f2232",
